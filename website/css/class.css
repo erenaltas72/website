@@ -1,0 +1,74 @@
+
+
+.navbar {
+    background-color: rgba(111, 39, 10, 0.4); 
+    text-align: center;
+    padding: 20px;
+}
+.navbar a {
+    color: #fff7f3;
+    text-decoration: none;
+    margin: 0 20px;
+}
+.navbar a:hover {
+    color: rgba(111, 39, 10); 
+}
+
+.contactcontainer {
+    width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.kutu {
+    width: 450px;
+    height: 450px;
+    border: 5px solid #333;
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+  }
+
+.cave-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.cave {
+    background-color: #C68B59;
+    border: 1px solid #402218;
+    border-radius: 10px;
+    margin: 60px;
+    padding: 10px;
+    width: 700px;
+}
+
+.cave img {
+
+    border-radius: 10px;
+}
+
+.cave h2 {
+    margin-top: 10px;
+}
+
+.cave-link {
+    text-decoration: none;
+
+}
+
+#content {
+    flex: 4; 
+    padding: 20px;
+    box-sizing: border-box;
+    color: #402218;
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 60px;
+}
